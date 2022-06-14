@@ -2,12 +2,12 @@ package com.example.demo;
 
 public class User {
     String id;
-    String Emailaddress;
+    String emailaddress;
     String password;
 
     public User(String id, String email, String password){
         this.id = id;
-        this.Emailaddress = email;
+        this.emailaddress = email;
         this.password = password;
     }
 
@@ -16,7 +16,7 @@ public class User {
     }
 
     private void setemail(String email){
-        this.Emailaddress = email;
+        this.emailaddress = email;
     }
 
     private void setpassword(String password){
@@ -28,7 +28,7 @@ public class User {
     }
 
     private String getmail(){
-        return Emailaddress;
+        return emailaddress;
     }
 
     private String getpassword(){
